@@ -1,6 +1,5 @@
 body{
     background-color: lightgray;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -11,12 +10,14 @@ h1 {
     border-width: 10px;
     border-color: yellow;
     border-style:outset;
-    background-color: white;
+    background-color: rgb(244, 254, 197);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#noodleSoup {
+#chickenSoup {
     border-width: 10px;
     border-color: rgb(35, 169, 111);
+    background-image:linear-gradient(blue,red);
     border-style:groove;
 }
 
