@@ -1,29 +1,62 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+
+
+
 body{
     background-color: lightgray;
 }
 
-
 h1 {
-    color: rgb(11, 83, 72);
+    color: rgb(180, 185, 44);
 }
+
+.image{
+    text-align: center;
+    margin: auto;
+}
+
+.recipe{
+    margin: 10px;
+    padding: 25px;
+
+}
+
 #bananaFoster{
-    border-width: 10px;
-    border-color: yellow;
-    border-style:outset;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-color: rgb(156, 18, 135);
+    border-style:groove;
     background-color: rgb(244, 254, 197);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    font-family: "Ephesis", cursive;
+    font-style: normal;
 }
 
 #chickenSoup {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     border-width: 10px;
-    border-color: rgb(35, 169, 111);
-    background-image:linear-gradient(blue,red);
-    border-style:groove;
+    border-color: black;
+    background-image:linear-gradient(blue,orange);
+    border-style:dashed;
 }
 
-#chckenCutlet {
+#chickenParm {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-width: 10px;
     border-color: rgb(50, 61, 222);
-    border-style:solid;
+    border-style:dotted;
     border-radius: 0.3in;
+    
+}
+
+#kugel{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(30, 30, 113);
+}
+
+#kugelHeader{
+    transform: skewX(-40deg);
+    color:blueviolet;
 }
