@@ -1,6 +1,4 @@
-/*imports*/
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Tektur:wght@400..900&display=swap');
 
 
 
@@ -16,12 +14,30 @@ h1 {
     text-align: center;
     margin: auto;
 }
+img{
+    width: 50%;
+
+    border-width: 6px;
+    border-radius: 20px;
+    border-color: cadetblue;
+    border-style: solid;
+}
 
 .recipe{
     margin: 10px;
     padding: 25px;
 
 }
+
+#tip{
+    text-align: center;
+    font-weight: bolder;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: salmon;
+    border-style: outset;
+}
+
 
 #bananaFoster{
     border-left-width: 20px;
@@ -59,4 +75,20 @@ h1 {
 #kugelHeader{
     transform: skewX(-40deg);
     color:blueviolet;
+    background-color: yellow;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#hal{
+    font-family:"tektur";
+    color: blanchedalmond;
+    background-color: black;
+
+    border-width: 6px;
+    border-color: white;
+    border-style: dotted;
 }
